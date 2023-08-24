@@ -442,20 +442,37 @@ into the main-branch(repo). then code is not working how do you resolve that?
 JENKINS
 ============
 1) What are the stages in Jenkins ?
+    1.checkout    
+    2.Build
+    3.Deploy
 2) Jenkins master slave configuration
+        jenkins another name called controller. In controller create the slave(agent)
 3) What is cicd flow ?
+
 4) Please write a Jenkins file?
-5) Difference Between scripted pipeline & Declarative pipeline
+
+5) Difference Between scripted pipeline & Declarative pipeline?
+
 6) difference declarative and scripted pipeline?
+
 7) Difference b/w master and slave in Jenkins
+
 8) I have a jenkins machine. How to integrate Jenkins to kubernetes?
-9) write the jenkins pipeline
-10)How do u configure master slave configuration
-11)Plug-ins used in Jenkins
-12)How to take backup of Jenkins machine
-13)Explain the CICD process
-14)how do you call the variables in pipeline
-15)how do you pass the secret in jenkins pipeline
+
+9) write the jenkins pipeline?
+
+10)How do u configure master slave configuration?
+
+11)Plug-ins used in Jenkins?
+
+12)How to take backup of Jenkins machine?
+
+13)Explain the CICD process?
+
+14)how do you call the variables in pipeline?
+
+15)how do you pass the secret in jenkins pipeline?
+
 16) PING threat in jenkins?
 17) How to transfer the console log for a particular jenkins build?
 18) CI achieved using jenkins?
@@ -1033,18 +1050,278 @@ DevCare Solutions
 
 ================================================
 
-TechMahindra
---------------
+company:altrimatrik   time:today 11am
+--------------------------------
+1.tell me about your self?
+2.Tell me your day to day activities?
+3.what are the services your work with aws ?
+4.how much rate of you give in aws out of 5?
+5.difference between roles and groups?
+6.Types of load balancers? 
+7.How to convert public subnet to private subnet
+8.what are the services your using eks cluster?
+9.How to access s3 which is another account from your account ec2?
+10.terraform particular resource destroy command?
+11.to run the terraform plan and init cmd what will be there?
+12.what is the terraform block?
+13.tell me about cicd flow?
+14.have you work with docker?
+15. How to login to a container with docker?
+16. Difference between deployment and STS? 
+17.how to login to a container tell me the command?
 
-1.How to restrict the jobs in Jenkins for different users
-2.Explain Jenkins pipeline code for deploying docker container
-3.What are the steps and what actions you will take to upgrade Jenkins in production.
-4.How to take backup in Jenkins
-5.Where you are storing credentials in Jenkins
-6.If I forgot admin password for Jenkins how would you resolve this
-7.Difference between EBS and EFS
-8.What are the types of EBS
-9.Jenkins is not in running state how would you troubleshoot explain the flow with commands
-10.Tell me daily activities what you would do in your organisation
-11.Explain the terraform flow
-12.Explain CICD flow in Jenkins
+=======================================================
+
+
+Accolite Digital india pvt ltd(3rd Round)
+==========================================
+1. Tell me about yourself?
+2. kubernets architecture and end user flow?
+3. which docker  command is used to copy image to local?
+4. terraform commands and terraform taint command purpose?
+5. s3 purpose and storage classes?
+6. when we deploy eks cluster what are the default namespaces are available?
+7. liveness probe?
+8. CICD?
+9. difference between declarative and scripted pipeline?
+10. if i build one of job,  its in hanging how can u resolve it?
+11.which command is used to store package in artifactory?
+
+
+
+Squareshift
+———————
+1.What are the git branching strategies you have followed in your Organisation.
+2.Tell me the linux commands you are using daily and explain it
+3.Write the scp command to copy the folder from local to ec2 instance
+4.Difference between docker file and docker compose
+5.Tell me what commands used in Dockerfile
+6.Explain why we use VPC
+7.Why we use  IGW.
+8.Why we use NAT-GATEWAY.
+9.Difference between EBS and EFS
+10.Tell me the Jenkins CICD flow
+11.Write the Jenkins pipeline code
+12.Explain the migration of monolithic to microservices(application)
+13.Tell me the flow how you  deploy application in k8s(Deployment,service,ingress yaml files)
+14.Explain PV and PVC
+15. Why we use Storage class in k8s.
+16. What type of services having in k8s and explain it
+17. Write the shell script for reverse string.
+18. What kind of application you have worked and explain it.
+19. https://google.com explain the enduser flow and admin flow how it works .
+20. Have you been part of on-call support ,if yes tell me what kind of application it is and what you have worked in that on call support explain briefly.
+21.How do you upgrade RDS version.
+
+
+
+company ADEP IT
+===================
+1-have you created any helmchart from the scrach
+2-what kind of responsibility you hold in kubernetes
+3-what kind of application you have and what kind of development work you did in that application
+4-have you written those manifest files in kubernetes
+5-what is hpa and the vpa 
+6-how do you implement the vpa and hpa 
+7-what are the parameter on which hpa and vpa upstream and downstream
+8-give me the steps how will you implement vpa
+9-what is pod disruption budget in kubernetes
+10-what is security context in kubernetes
+11-how do you use these in manifest
+12-if you have four microservice in same namespace and they are exchanging data with each other so how can i secure this communication
+13-write he declrative base pipeline with when and if conditions
+14-have you did any database migration and what all issue you face during this
+15-suppose have you decrease the database size  from t5 to t2 what all issue you will face
+
+
+Company name:- Alphagrep securities 
+===================================
+1)Tell me about your self.
+2)why you are using terraform. 
+3)what are the package  build Jenkins 
+4)what are the metrics you monitored.
+5)Grafana
+6)why you are using python
+
+
+Bigbasket:
+Interview questions:
+================
+1.Terraform state file corrupted and not taken backup as well how you will recover
+2.What is CNI in k8s
+3.What are non namespace objects in k8s
+4.Explain how one pod will communicate with another pod
+5.Ec2 in one AWS account ,s3 bucket in another was account was account have to upload file from ec2 to s3 how will you achieve this
+5.Explain you current working project
+6.Difference between clusterrole, clusterrolebinding and role rolebinding
+7.How will you connect to eks cluster
+8.How you will take cluster backup
+9.Tell me recently what challenges you have faced and how you handled 
+10.How do you pass user data into ec2 instance using terraform
+
+
+
+Flipkart
+=========
+1. Tell me about yourself?
+2. How can you integrate docker with kubernetes?
+3. Deployment strategies?
+4. Difference between canary and rolling update?
+5. Cronjob ?
+6. Chown and chmod purposes?
+7. I have one of log file how can we see which error I am getting which command we can use?
+8. In a server I have log file how can we take every day backup and stores into s3?
+9. In a folder how can we see disk usage by using which command?
+10. I have multiple commits, I want to merge into main or master branch which git command is used?
+11. In a log file I am getting error I want to see error above five lines below 5 lines which command is used?
+
+
+
+company:Imss
+=============
+1. K8s Architecture?
+2. 2 pods are running in same namespace how do they both communicate with each other?
+3. pods running in different namespace how does they communicate with each other?
+4. FQDN syntax?
+5. Horizontal pod autoscaling & Vertical pod autoscaling?
+6. Readiness prob & Liveness probe ?
+7. How too create all the pods within same PV?
+8. How are you following the process of automating the image going directly to the deployment yaml file?
+9. Docker network types ?
+10. How will you upgrade the version without downtime?
+11. What are the requests and limits?
+12. Difference btw rollout and rollback.
+
+
+
+Wipro		
+==============================================================
+1)	Tell me the CICD pipeline flow from scratch?
+2)	What tool did you use for container scanning?
+3)	While pushing to ECR what kind of vulnerabilities have you faced till now?
+4)	For code scanning which tool are you using?
+5)	How to configure SonarQube into the Jenkins pipeline?
+6)	Have you done any extra integrations in Jenkins like Slack, teams, bitbucket & Jira?
+7)	In the deployment, how do you differentiate the deployment step by step to go through all the environments?
+8)	 Who maintains these helm charts for deployments, and how do you maintain them?
+9)	What would be the contents of the helm?
+10)	How to upgrade the versions in the helm, and how to maintain the versions?
+11)	Can you please explain the day-to-day tasks are you doing in aws?
+12)	What is host n/w & overlay n/w?
+13)	In Java projects, where we can store the dependencies, and where we can store the properties files?
+14)	Where we can mention Horizontal & Vertical pod autoscaling?
+15)	How will you give particular resources to the particular pod?
+16)	How the traffic goes, can you please application architecture?
+17)	Have you worked on SSL Certificates?
+18)	Developer says I’m unable to connect the Database, what is your approach, and how to solve it?
+19)	What is Rsync?
+20)	What are the errors you faced in the production environment?
+
+
+Acviss
+========
+
+1.How will you migrate Database from On-Prem to the Cloud? &  BackUp of Delta Data? 
+2. AutoScaling Group in AWS? 
+3. Security Groups Vs NACL
+4. VPC / IGW / Subnets
+5. IAM? 
+6. How will you attach Static IP address to ELB? 
+7. Shell script to stop & start Ec2 Instance & to calculate  AWS Billing? 
+8. How to connect to s3 from Linux? 
+9. Git Commands
+10. Shell script to find the largest Number
+11. Rds is not working Properly, How will you troubleshoot it? 
+12. In linux, what default permissions  a file will have when created? 
+13. Write a jenkinsfile?
+
+
+Xylem
+=====
+1) What is NAT GW?
+2) What is VPC?
+3) CI/CD flow
+4)Jenkins flow
+5) K8's flow
+6)what is helm?
+7)explain about your roles and responsibilities
+8) recent issue faced in production environment and how you fix it 
+9)k8 architecture
+10) what is rolling update
+11) explain about user end flow of web application
+12) types of Linux commands.
+13) command used to push docker image into registry ?
+
+
+Skaas:-
+=======
+1.What are Modules in Terraform?
+2.What are Provisioner?
+3.What is terraform Lifecycle
+4.How do you maintain Database HA and crate across Multi AZ?
+5.Policies in Route53?
+6.ALBvsNLB
+7.DIff Between Entrypoint&CMD.
+8.I have entry point and Cmd in Docker file which will execute first?
+9.Storage and Scanning of Images?
+10.CICD Process Detail explanation?
+11.What Jenkins Variables You guys are using?
+12. How Many kill sequences are there in Linux to Kill a process?
+A.64
+13.Explain me How you are Automating the process of bringing the images in CD form ECR and Applying in Deployment.yaml file?
+14.How are you securing terraform Tf state file?
+15.GIt Branching Strategy.
+16.How to find Process Id in Linux?
+17.How to find port number is listening or not?
+
+========================================================
+
+1- Tell me about few of microservices which you are using in your current environment.
+2- Tell me something about your architecture.
+3- In Kubernetes how are you connecting one microservice to another microservice.
+4- In your environment how microservices are connecting to DB tell me the flow .
+5-Kubernetes Architecture.
+6- Involvement and implementation of yours in your current Environment.
+7- How are you guys providing security to microservices.
+8- Did you worked on production.
+9- Tell me About your team so about Dev , Devops, Testing total members working for this project.
+10- Do you have experience in creating pipeline? And what exactly you worked on ? 
+11- what are the total ports you guys are exposing outside and the ports which are using by you ?
+12- How are you exposing your microservices outside ?
+13- Did you worked on Apache , Tomcat?
+14- Do you ever created cluster?
+15- How do you change permissions for file and owner permissions?
+16-  Have you been any part of upgradation?
+17- What is difference between CMD and ENTRY POINT
+18-Difference between SG and NACL ?
+19- Difference you had seen between Jenkins and gitlab ?
+20- How can we auto trigger pipelines in both the tools ? 
+21-In AWS on top of how many services you can deploy your application?
+
+
+====================================================================
+
+1. How will you create alerts in CloudWatch? 
+2. Git CherryPick
+3. CI/CD Flow
+4. I've a Private S3 Bucket, How will you configure CloudFront to it? 
+5. Command to send files from local to Private S3 Bucket? 
+6. Difference Between Cname & A Name? 
+7. Connection Draining In AWS? 
+8. S3 LifeCycle
+9. What is Elastic IP? 
+10. Branching Strategy? 
+11. Blue-Green Deployment? 
+12. Aws services you Worked? 
+13. What is LS BLK? 
+14. Migrate from github repo to bit bucket repo? 
+15.I want to block specific ip address where will you block it & I want to allow only specific IP addresses? 
+16.You are having single elastic ip address I have different applications in one Ec2 machine how will you do?
+17.I've only one branch how will you write pipeline? 
+Have you used any tags in jenkins?
+18.Private & public hosted zones in Route53
+19. How many ways Can you trigger a job? 
+20. Have you done any Automation Script Other Than Pipeline? 
+21. Where do you check Auditing logs in AWS? 
+22. Post Build Actions In Jenkins?
+23. Cloudfront Geolocation restrictions?
