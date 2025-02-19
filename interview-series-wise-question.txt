@@ -54,6 +54,7 @@ IAM
 11) I have a user. How to attach a role to the user?
 12) What is the purpose of user groups?
 13) How do you give particular permissions to a service?
+
 EC2
 =====
 1) What is meant by 0 down time ?
@@ -71,13 +72,33 @@ How can you resolve it?
 11) How to find how long the server is running?
 12) what is Assume role and what is the use of Assume role
 13) use of profile instance?
-14)How ec2 instance communicate with s3 bucket
+14) How ec2 instance communicate with s3 bucket
+A: An EC2 instance communicates with an S3 bucket using the AWS API, typically by attaching an IAM role to the EC2 instance that grants it the necessary permissions to access the S3 bucket, allowing the instance to read, write, or delete data within the bucket over the network through the AWS service endpoints; essentially, the communication happens through secure, authenticated requests over the internet
+
 15) Tell me the purchase plans of an ec2?
+	On-demand instances.
+	Savings plans.
+	Reserved instances.
+	Spot instances.
+	Dedicated hosts.
+	Dedicated instances.
+	Capacity reservations.
+
 16) Tell me a spot and reserved instance?
+A: Spot instances are cheaper but can be interrupted, while reserved instances are more expensive but are guaranteed to be available. 
+
 17) What is an instance profile?
+A: An instance profile in AWS is a container that holds an IAM role and passes that role's information to an EC2 instance. This allows the instance to assume the role's permissions. 
+
 18) what is zombie process
+A: A "zombie process" in the context of EC2 (Elastic Compute Cloud) refers to a process on a Linux instance that has finished executing but still remains in the system's process table because its parent process hasn't properly "reaped" it, essentially leaving a "dead" process taking up a small amount of system memory and potentially causing issues if too many accumulate; this is the same concept as a zombie process in standard Linux systems
+
 19) Overnight the cost of instance has increased a lot? What do you suggest?
+A: Periodically review your AWS environment and identify any unused resources, such as EC2, EBS snapshots, or EBS volumes, and delete them to save on storage costs. Remove unused instances that are in a stopped state, as they can still incur costs. You can automate this process by using AWS Lambda or a third-party tool
+
 20) Difference between Iam role and instance profile
+A: Roles are designed to be “assumed” by other principals which do define “who am I?”, such as users, Amazon services, and EC2 instances. An instance profile, on the other hand, defines “who am I?” Just like an IAM user represents a person, an instance profile represents EC2 instances.
+
 21) EC2 family types?
 22) What is the spot instance and when do we go with the spot instance?
 23) what is sticky session in Load balancer
